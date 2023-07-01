@@ -20,6 +20,18 @@ My strenths are: I'm reliable, quick-learner, curious (I'm keen on learning new 
 -----------
 ## Code example:
 
+***KATA from CODEWARS: The code does not execute properly. Try to figure out why.***
+```
+function multiply(a, b){
+  a * b
+}
+```
+***Answer:***
+```
+function multiply(a, b){
+  return a * b
+}
+```
 -----------
 ## Courses:
 
