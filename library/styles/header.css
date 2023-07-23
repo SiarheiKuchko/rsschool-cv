@@ -1,0 +1,108 @@
+.header-container {
+    width: 1440px;
+    height: 90px;
+    display: flex;
+    background: #0C0C0E;
+}
+.header-text {
+    padding: 20px 0px 20px 20px;
+    width: 314px;
+    height: 90px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px; 
+}
+.navi {
+    width: 1058px;
+    height: 90px;
+    background: #0C0C0E;
+}
+.nav-menu {
+    display: flex;
+    justify-content: right;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    gap: 30px; 
+    list-style: none;
+}
+.nav-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 250% */
+    text-decoration: none;
+}
+.profile-icon {
+    width: 68px;
+    height: 90px;
+    background: #0C0C0E;
+}
+.icon_profile-position {
+    padding: 31px 20px 31px 20px;
+    flex-shrink: 0;
+}
+.main-container {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+.welcome {
+    width: 1440px;
+    height: 600px;
+    background: url(../img/img/welcome-bg.jpeg), lightgray 50% / cover no-repeat;
+}
+.overlay {
+    width: 1440px;
+    height: 300px;
+    flex-shrink: 0; 
+    background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
+    z-index: -1;
+}
+.welcome-bg {
+    display: flex;
+    margin-top: -110px;
+    width: 600px;
+    height: 220px; 
+    background: #0C0C0E; 
+    z-index: 2;
+}
+.welcome-bg_content {
+    margin: 35px 40px 35px 40px;
+    width: 520px;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0; 
+    background: #0C0C0E; 
+    z-index: 2;
+}
+h1 { 
+    display: inline;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 125% */
+    letter-spacing: 3px;
+    text-transform: uppercase; 
+}
+h2 {
+    display: inline;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}

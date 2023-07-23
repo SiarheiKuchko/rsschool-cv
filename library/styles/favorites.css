@@ -1,0 +1,209 @@
+.favorites-box {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1439px; 
+    background: #FFF;
+}
+.favorites-paragraph {
+    display: inline;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 240px;
+    height: 24px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.favorites-check_box {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 700px;
+    height: 24px;
+}
+.radio-button {
+    width: 37px;
+    height: 17px;
+}
+.empty-box {
+    width: 90px;
+    height: 24px;
+}
+.activ-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.non-activ-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.favorites-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 220px;
+    margin: 40px 20px;
+    width: 1400px;
+    height: 1150px;
+    background: #FFF;
+}
+.fav-books {
+    height: 555px;
+    width: 590px;
+    flex-shrink: 0;
+    background: #FFF
+}
+.fav-books-border {
+    position: relative;
+    height: 555px;
+    width: 550px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+}
+.fav-book-cover1 {
+    left: 390px;
+    top: 256px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    background: url(../img/img/book_1.png), lightgray 50% / cover no-repeat;
+}
+.fav-book-cover2 {
+    left: 390px;
+    top: 256px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    background: url(../img/img/book_2.png), lightgray 50% / cover no-repeat;
+}
+.fav-book-cover3 {
+    left: 390px;
+    top: 256px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    background: url(../img/img/book_3.png), lightgray 50% / cover no-repeat;
+}
+.fav-book-cover4 {
+    left: 390px;
+    top: 256px;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    background: url(../img/img/book_4.png), lightgray 50% / cover no-repeat;
+}
+.staff-title {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 105px;
+    height: 40px;
+}
+.staff-text {
+    display: inline;
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.staff_bottom-line {
+    width: 60px;
+    height: 1px;
+    background: #BB945F;
+}
+.name_pick {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 380px;
+    height: 80px;
+}
+.book-name {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+}
+.book-author {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.book-description {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 355px;
+    height: 320px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.button-buy {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0; 
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px
+}
+.button-own {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0; 
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    color: #BB945F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px
+}
