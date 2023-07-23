@@ -363,21 +363,306 @@ h2 {
     line-height: normal;
     letter-spacing: 1px
 }
+.button-own {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0; 
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    color: #BB945F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px
+}
 .coffee_shop-box {
     display: flex;
+    flex-direction: column;
     width: 1440px;
     height: 841px;
-    background: cadetblue;
+    background: #FFF;
+}
+.coffee_shop-intro {
+    display: flex;
+    width: 1400px;
+    height: 120;
+    margin: 40px 20px 0px 20px;
+    justify-content: center;
+}
+.coffee_shop-intro-text {
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: lowercase; 
+}
+.cap-letter {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+}
+.menu {
+    display: flex;
+    margin: 40px 20px;
+    width: 1400px;
+    height: 520px;
+    column-gap: 480px;
+}
+.coffee_tea {
+    width: 438px;
+    height: 520px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; 
+}
+.menu_text-style {
+    display: inline;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.line {
+    margin-top: 20px;
+    width: 100px;
+    height: 1px;
+    background: #BB945F; 
+}
+.menu-price {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.coffee_tea-box {
+    display: flex;
+    gap: 58px;
+    width: 438px;
+    height: 40px;
+}
+.coffee_tea-title {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.deserts {
+    display: flex;
+    width: 482px;
+    height: 520px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px; 
+}
+.deserts-box {
+    width: 482px;
+    height: 40px;
+    text-align: right;
+}    
+.deserts-title {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.desert_cakes-box {
+    display: flex;
+    gap: 58px;
+    width: 482px;
+    height: 40px;
 }
 .contacts-box {
     display: flex;
+    flex-direction: column;
     width: 1440px;
     height: 575px;
-    background: darkkhaki;
+    background: #FFF;
+}
+.contacts-container {
+    display: flex;
+    margin: 40px 20px;
+    width: 1400px;
+    height: 414px;
+    background: #FFF;
+}
+.first-line {
+    display: inline;
+    width: 285px;
+    height: 40px;
+}
+.contacts-text-bold {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.contacts-text {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.contacts-map {
+    margin-left: 189px;
+    width: 696px;
+    height: 414px; 
+    background: url(./img/img/map.png), lightgray 50% / cover no-repeat;
 }
 .library_card-box {
     display: flex;
+    flex-direction: column;
     width: 1440px;
     height: 614px; 
-    background: darkolivegreen;
+    background: #FFF;
+}
+.library_card-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.library_card-border {
+    margin-top: 30px;
+    width: 595px;
+    height: 381px;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+}
+.library_name {
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px; 
+}
+.find-card-input {
+    margin-top: 20px;
+    margin-left: 17px;
+    width: 520px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px; 
+}
+.submit-text {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.submit-style {
+    display: inline;
+    padding: 10px 40px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    margin: 20px 174px 30px 174px;
+}
+.two-buttons {
+    width: 460px;
+    height: 30px;
+    margin-top: 35px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.card-title {
+    color: #000;
+    text-align: center;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px; 
+}
+.auth-text {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.buttons-style {
+    display: flex;
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+.button-text {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
 }
