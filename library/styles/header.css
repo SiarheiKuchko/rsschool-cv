@@ -39,6 +39,12 @@
     line-height: 50px; /* 250% */
     text-decoration: none;
 }
+.nav-link:hover {
+    color: #0C0C0E;
+    border-radius: 2px;
+    border: 1px solid #FFF;
+    background: #FFF;
+}
 .profile-icon {
     width: 68px;
     height: 90px;

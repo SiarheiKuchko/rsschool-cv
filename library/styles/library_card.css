@@ -58,10 +58,16 @@
 }
 .submit-style {
     display: inline;
+    background: #FFF;
     padding: 10px 40px;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
     margin: 20px 174px 30px 174px;
+}
+.submit-style:hover {
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    background: #BB945F;
 }
 .two-buttons {
     width: 460px;
@@ -101,6 +107,11 @@
     flex-shrink: 0;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
+}
+.buttons-style:hover {
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    background: #BB945F;
 }
 .button-text {
     color: #0C0C0E;

@@ -38,6 +38,7 @@
     line-height: 40px; /* 200% */
     letter-spacing: 2px;
     text-transform: capitalize; 
+    text-decoration: none;
 }
 .contacts-map {
     margin-left: 189px;
