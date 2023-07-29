@@ -40,9 +40,8 @@
     text-decoration: none;
 }
 .nav-link:hover {
+    transition: 0.4s;
     color: #0C0C0E;
-    border-radius: 2px;
-    border: 1px solid #FFF;
     background: #FFF;
 }
 .profile-icon {

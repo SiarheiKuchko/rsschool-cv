@@ -65,6 +65,7 @@
     margin: 20px 174px 30px 174px;
 }
 .submit-style:hover {
+    transition: 0.4s;
     border-radius: 2px;
     border: 1px solid #BB945F;
     background: #BB945F;
@@ -109,6 +110,7 @@
     border: 1px solid #0C0C0E;
 }
 .buttons-style:hover {
+    transition: 0.4s;
     border-radius: 2px;
     border: 1px solid #BB945F;
     background: #BB945F;
