@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/img/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/about.css">
@@ -38,14 +39,16 @@
       </div>
     </header>
     <main class="main-container">
-      <div class="welcome">
-        <div class="overlay"></div>
-        <div class="welcome-bg">
-          <div class="welcome-bg_content">
-            <h1>Welcome<br>to the Brooklyn<br>Library</h1>
+      <section class="section-welcome">
+        <div class="welcome">
+          <div class="overlay"></div>
+          <div class="welcome-bg">
+            <div class="welcome-bg_content">
+              <h1>Welcome<br>to the Brooklyn<br>Library</h1>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
       <div class="about-box">
         <div class="section-title">
           <section id="about"><h2>About</h2></section>
@@ -141,7 +144,7 @@
                 <p class="book-author"><span class="book-name">The Last Queen</span><br> By Clive Irving</p>
               </div>
               <div class="book-description">An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</div>
-              <button type="button" class="button-own">Own</button> 
+              <button type="button" class="button-own" disabled>Own</button> 
               <div class="fav-book-cover4"></div>
             </div>
           </div>
@@ -254,11 +257,11 @@
         <div class="contacts-container">
           <div style="width: 515px; height: 380px;">
             <div class="first-line"><span class="contacts-text-bold">For all Library inquiries:</span></div>
-            <div style="margin-top: 40px;"><span class="contacts-text">Please call (617) 730-2370</span></div>
-            <div style="margin-top: 20px;"><span class="contacts-text">For TTY service, please call (617) 730-2370</span></div>
-            <div style="margin-top: 20px;"><span class="contacts-text">Putterham Library: (617) 730-2385</span></div>
+            <div style="margin-top: 40px;"><span class="contacts-text">Please call <a href="tel:+16177302370" style="text-decoration: none; color: #000;">(617) 730-2370</a></span></div>
+            <div style="margin-top: 20px;"><span class="contacts-text">For TTY service, please call <a href="tel:+16177302370" style="text-decoration: none; color: #000;">(617) 730-2370</a></span></div>
+            <div style="margin-top: 20px;"><span class="contacts-text">Putterham Library: <a href="tel:+16177302370" style="text-decoration: none; color: #000;">(617) 730-2385</a></span></div>
             <div style="margin-top: 40px;"><span class="contacts-text-bold">Senior Staff</span></div>
-            <div style="margin-top: 20px;"><span class="contacts-text">Library Director: <span class="contacts-text-bold">Amanda Hirst</span></span></div>
+            <div style="margin-top: 20px;"><span class="contacts-text">Library Director: <span class="contacts-text-bold"><a href="mailto:ahirst@minlib.net" style="text-decoration: none; color: #000;">Amanda Hirst</a></span></span></div>
           </div>
           <div class="contacts-map"></div>
         </div>
@@ -293,7 +296,7 @@
     </main> 
     <footer class="footer-container">
       <div style="width: 1400px; height: 40px; margin: 20px 20px 0px 20px; gap: 1019px; display: flex;">
-        <div style="width: 229px; height: 40px;"><span class="footer-text">286 Cadman Plaza, New York, NY 11238, United States</span></div>
+        <div style="width: 229px; height: 40px;"><span class="footer-text"><a href="https://www.google.com/maps/place/286+Cadman+Plaza+W,+Brooklyn,+NY+11201,+USA/@40.6956458,-73.9912976,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25a49b649b8c3:0x6342a2291cea2e!8m2!3d40.6956458!4d-73.9912976!16s%2Fg%2F11s2lgz8ns?entry=ttu" style="text-decoration: none; color: #FFF;">286 Cadman Plaza, New York, NY 11238, United States</a></span></div>
         <div style="width: 152px; height: 40px; text-align: right"><span class="footer-text">Mon - Fri<br> 08:00 am - 07:00 pm</span></div>
       </div>
       <div style="width: 1400px; height: 40px; margin: 10px 20px 0px 20px; gap: 1146px; display: flex;">
