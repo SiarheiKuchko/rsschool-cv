@@ -2,7 +2,7 @@
 ## Contact information:
 * **E-mail:** siarheikuchko@gmail.com
 * **GitHub:** [https://github.com/SiarheiKuchko/]
-* **Discord:** BaZull(@BaZull)
+* **Discord:** Siarhei Kuchko(@BaZull)
 
 -----------
 ## About Me:
