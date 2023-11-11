@@ -53,3 +53,13 @@ var whatTimeIsIt = function(angle) {
 }
 ```
 -----------
+## Courses:
+
+- RS Schools Course «JavaScript/Front-end. Stage 0» (completed);
+- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+
+-----------
+## Languages:
+
+* Russian - Native
+* English - A2
