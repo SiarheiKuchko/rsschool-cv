@@ -23,3 +23,33 @@ My strenths are: I'm reliable, quick-learner, curious (I'm keen on learning new 
  - MS Office tools
 
 -----------
+## Code example:
+
+```
+var whatTimeIsIt = function(angle) {  
+    let h = angle;
+    if (h === 0) {
+      return "12:00";
+    } else if (h === 360) {
+        return "12:00";
+    } else {
+        let hr = Math.floor(h/30);
+        let min = Math.floor((h - (hr * 30))/0.5);
+        if (hr < 10 && hr > 0) {
+            hrNew = `0${hr}`;
+        } else if (hr === 0) {
+            hrNew = '12'
+        } else {
+            hrNew = hr;
+        }
+        if (min <10) {
+            minNew = `0${min}`;
+        } else {
+            minNew = min;
+        }
+        console.log(`${hrNew}:${minNew}`);
+        return `${hrNew}:${minNew}`
+    }
+}
+```
+-----------
