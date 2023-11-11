@@ -2,6 +2,8 @@
 ## Contact information:
 * **Phone:** *+37064929413*
 * **E-mail:** siarheikuchko@gmail.com
+* **GitHub:** [https://github.com/SiarheiKuchko/]
+* **Discord:** BaZull(@BaZull)
 
 -----------
 ## About Me:
@@ -14,6 +16,8 @@ My strenths are: I'm reliable, quick-learner, curious (I'm keen on learning new 
 ## Skills and Proficiency:
  - GitHub (basic)
  - JavaScript (basic)
+ - HTML (basic)
+ - CSS (basic)
  - AutoCAD, SketchUp
  - MS Office tools
 
