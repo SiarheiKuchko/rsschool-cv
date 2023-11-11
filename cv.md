@@ -7,8 +7,10 @@
 -----------
 ## About Me:
 
-I graduated from the Belarusian State Technological University in 2002. Since then till the present day I have been working in designing furniture and various wood products area as the process engineer.\n
-I've never been working in the IT field. When I was a teen I was keen on programming, I was dreemed to become a developer. Later I was learning programming languages while I was studying in the university. In June this year I found out about RS School and the "JavaScript/Front-end. Stage 0" course from my wife who is EPAM employee, so I decided to take a part. I've successfully completed "Stage 0" and got a sertificate. I'm going to continue learning at the "Stage 1" of the course.\n
+I graduated from the Belarusian State Technological University in 2002. Since then till the present day I have been working in designing furniture and various wood products area as the process engineer.
+
+I've never been working in the IT field. When I was a teen I was keen on programming, I was dreemed to become a developer. Later I was learning programming languages while I was studying in the university. In June this year I found out about RS School and the "JavaScript/Front-end. Stage 0" course from my wife who is EPAM employee, so I decided to take a part. I've successfully completed "Stage 0" and got a sertificate. I'm going to continue learning at the "Stage 1" of the course.
+
 My strenths are: I'm reliable, quick-learner, curious (I'm keen on learning new things and getting new skills), attentive to details, polite, a team-player, able to work independently.
 
 ----------
